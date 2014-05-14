@@ -1,7 +1,7 @@
 require 'pi_piper'
 include PiPiper
 
-led_pin = PiPiper::Pin.new(pin: 18, direction: :out)
+led_pin = PiPiper::Pin.new(pin: 25, direction: :out)
 
 led_pin.off
 
